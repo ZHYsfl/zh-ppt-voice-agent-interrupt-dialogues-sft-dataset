@@ -304,7 +304,8 @@
 ## 7. 相关资源
 
 - **项目仓库**：[https://github.com/ZHYsfl/EducationAgent](https://github.com/ZHYsfl/EducationAgent)
-- **该数据集基于Qwen/Qwen3-4B-Instruct-2507进行SFT训练后的lora权重：[https://huggingface.co/ZaneSFL/zh-ppt-voice-agent-model-lora-support-interrupt](https://huggingface.co/ZaneSFL/zh-ppt-voice-agent-model-lora-support-interrupt)**
+- **该数据集基于Qwen/Qwen3-4B-Instruct-2507进行SFT训练后的lora权重：**[https://huggingface.co/ZaneSFL/zh-ppt-voice-agent-model-lora-support-interrupt](https://huggingface.co/ZaneSFL/zh-ppt-voice-agent-model-lora-support-interrupt)
+- **本数据集的Hugging Face地址**：https://huggingface.co/datasets/ZaneSFL/zh-ppt-voice-agent-interrupt-dialogues
 
 ## 8. 许可与引用
 
