@@ -4,6 +4,8 @@
 > **Task**: Supervised Fine-Tuning (SFT) for Voice-based Conversational Agents  
 > **Domain**: PowerPoint (PPT) Creation Assistant with Real-time Interruption Handling
 
+<img width="1376" height="768" alt="0f19a1c5f94935bbf9be0f8ea636cfef" src="https://github.com/user-attachments/assets/ec9cf773-542b-42c0-8612-79fde441be1e" />
+
 ---
 
 ## 1. 数据集简介
