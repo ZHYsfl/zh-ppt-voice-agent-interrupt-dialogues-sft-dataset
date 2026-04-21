@@ -158,12 +158,12 @@
 ### 3.5 Action 空间
 
 
-| Action                         | 格式                                              | 出现阶段        | 说明                  |
-| ------------------------------ | ----------------------------------------------- | ----------- | ------------------- |
-| `update_requirements`          | `update_requirements`                            | topic:...   | style:...           |
-| `require_confirm`              | `<action>require_confirm</action>`              | Phase 1     | 四个字段收集完毕后，要求用户确认。   |
-| `send_to_ppt_agent`            | `send_to_ppt_agent`                              | data:...   | Phase 1 & 2         |
-| `fetch_from_ppt_message_queue` | `<action>fetch_from_ppt_message_queue</action>` | Phase 1 & 2 | 拉取 PPT Agent 的消息队列。 |
+| Action                         | 出现阶段        | 说明                  |
+| ------------------------------ | ----------- | ------------------- |
+| `update_requirements`          | Phase 1   | 收集用户期望的PPT需求        |
+| `require_confirm`              | Phase 1     | 四个字段收集完毕后，要求用户确认   |
+| `send_to_ppt_agent`            | Phase 1 & 2  | 把用户的反馈或要求发送给PPT Agent |
+| `fetch_from_ppt_message_queue` | Phase 2      | 拉取 PPT Agent 的消息队列 |
 
 
 注意：`update_requirements` 和 `require_confirm` 在**第一次调用 `send_to_ppt_agent` 之后永久消失**。
